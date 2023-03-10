@@ -25,7 +25,7 @@
 
         <tr>
             <td><p>Page load xong nhạc tự động phát</p></td>
-            <td><audio controls autoplay>
+            <td><audio controls autoplay> <!--gg chặn auto - phải dùng trick = js-->
                 <source src="Yeu5-Rhymastic-4756973.mp3">
             </audio> </td>
         </tr>
@@ -52,11 +52,11 @@
         </tr>
 
         <tr>
-            <td>Video</td>
+            <td>Phát video YouTube bằng HTML</td>
             <td>
-                <video controls>
-                    <source src="https://www.youtube.com/embed/qaZ0oAh4evU">
-                </video>
+                <iframe width="420" height="315" src="https://www.youtube.com/watch?v=LVHQxg-lFRM&ab_channel=NhacProTube" type="video/webm">
+                  Your browser does not support the video tag.
+                </iframe>
             </td>
         </tr>
 
@@ -64,7 +64,7 @@
             <td></td>
             <td>
                 <video controls autoplay>
-                    <source src="Rose_Lisa.mp4">
+                    <source src="Rose_Lisa.mp4" type="video/mp4">
                 </video>
             </td>
         </tr>
