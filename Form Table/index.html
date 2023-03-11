@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form & Table</title>
+    
 </head>
 <body>
     <h1 align="center" style="color: red;">TABLE</h1>
@@ -213,7 +214,22 @@
         <p>input range:</p><input type="range"> <br>
     <hr>
 
-    <form action="">
+    <form action="https://www.google.com.vn/" method="">
+        <!--
+            Thuộc tính method quy định cách thức dữ liệu được gửi lên server. Có 2 cách thức là POST và GET
+            <form action="" method="post"></form>
+            hoặc
+            <form action="" method="get"></form>
+            ** Phân biệt GET và POST:
+            GET:
+            - Dữ liệu được gửi đi sẽ hiển thị trên thanh địa chỉ của trình duyệt
+            - Không nên sử dụng để gửi các dữ liệu nhạy cảm (chẳng hạn như mật khẩu)
+            - Thường được sử dụng để gửi những dữ liệu nhỏ
+            POST:
+            - Dữ liệu được gửi đi không hiển thị trên thanh địa chỉ của trình duyệt
+            - Được sử dụng để gửi các dữ liệu nhạy cảm
+            - Không hạn chế dung lượng dữ liệu gửi đi. Thường được sử dụng để gửi dữ liệu lớn lên server.
+        -->
         <table style="width: 500px; height: 200px; border-collapse:collapse;" border="1" align="center">
             <tr>
                 <td colspan="2" align="center"><b>LOGIN</b></td>
@@ -234,8 +250,110 @@
 
     </form>
 
+    <!--
+        Thẻ <select> được sử dụng chung với thẻ <option> để tạo một danh sách drop-down hoặc list, cho phép chọn một hoặc nhiều hạng mục từ một danh sách có sẵn.
+        Chúng ta cùng phân biệt giữa một số điều khiển:
+        - checkbox: lựa chọn nhiều hạng mục từ một danh sách
+        - radio: lựa chọn một hạng mục từ một danh sách. Hiển thị toàn bộ danh sách cho người dùng thấy ngay từ đầu. Sử dụng tốt trong trường hợp có ít lựa chọn.
+        - drop-down: lựa chọn một hạng mục từ một danh sách. Chỉ hiển thị hạng mục hiện tại được chọn, còn lại các hạng mục khác đều bị ẩn. Toàn bộ danh sách chỉ hiển thị khi người dùng click chuột vào.
+        - list: lựa chọn nhiều hạng mục từ một danh sách.
+    -->
+    <p>Ví dụ: Lựa chọn một thành phố từ drop-down:</p>
+    <select name="city">
+        <option value="HN">Hà Nội</option>
+        <option value="HCM">Tp Hồ Chí Minh</option>
+        <option value="DN">Đà Nẵng</option>
+        <option value="HP">Hải Phòng</option>
+    </select> <br>
 
+    <p>Lựa chọn nhiều thành phố từ list:</p>
+    <select name="city" multiple>
+        <option value="HN">Hà Nội</option>
+        <option value="HCM">Tp Hồ Chí Minh</option>
+        <option value="DN">Đà Nẵng</option>
+        <option value="HP">Hải Phòng</option>
+    </select> <br>
+    <hr>
 
+    <form method="get" action="simpleform.html" class = ".wufoo">
+        <h2>Order Form</h2>
+        <p>What would you like to buy?</p>
+        <select>
+            <option value = "  ">A</option>
+            <option>B (+  0.5$)</option>
+            <option>C (+  0.5$)</option>
+        </select>
+        <p>How many would you like to order?</p>
+        <input type="radio" name="rd"/> 1 - $10 <br/>
+        <input type="radio" name="rd"/> 2 - $20 <br/>
+        <input type="radio" name="rd"/> 3 - $25 <br/>
+        <p>Name <span style="color: red">*</span> </p>
+        <input type = "text" name="firstname" placeholder="FirstName" size="15"/>
+        <input type = "text" name="lastname" placeholder="LastName" size="15"/>
+        <p>Email</p>
+        <input type = "text" name="email" size="35"/>
+        <p>Phone Number</p>
+        <input type = "text" name="phone1" size="5"/> -
+        <input type = "text" name="phone2" size="5"/> -
+        <input type = "text" name="phone3" size="5"/>
+        <p><input type = "button" name="btSubmit" value="Submit"/></p>
+   
+   </form>
+
+   <table>
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Centro comercial Moctezuma</td>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+    <tr>
+      <td>Ernst Handel</td>
+      <td>Roland Mendel</td>
+      <td>Austria</td>
+    </tr>
+    <tr>
+      <td>Island Trading</td>
+      <td>Helen Bennett</td>
+      <td>UK</td>
+    </tr>
+    <tr>
+      <td>Laughing Bacchus Winecellars</td>
+      <td>Yoshi Tannamuri</td>
+      <td>Canada</td>
+    </tr>
+    <tr>
+      <td>Magazzini Alimentari Riuniti</td>
+      <td>Giovanni Rovelli</td>
+      <td>Italy</td>
+    </tr>
+  </table>
+
+  <!-- Tạo style sử dụng cho bảng
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse; /border-collapse dùng để thiết lập việc đường viền của bảng & đường viền của các ô trong bảng có được gộp lại thành một hay không
+        width: 100%; /chiều ngang
+        }
+    td, th {
+        border: 1px solid #dddddd; /thuộc tính đường viền
+        text-align: left; /căn chỉnh chữ
+        padding: 8px; /phần padding của trang web
+    }
+
+    tr:nth-child(odd) {
+        background-color: #dddddd; /định màu nền
+    }
+  -->
 
 
 
