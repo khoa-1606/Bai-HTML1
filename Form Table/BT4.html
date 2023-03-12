@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT4</title>
+</head>
+<body>
+    <form>
+        <header>
+            <table>
+                <tr>
+                    <td><h2>Market Research Survey</h2></td>
+                </tr>
+                <tr>
+                    <td>Please take a few moments to complete this satisfaction survey.</td>
+                </tr>
+            </table>
+            <hr>
+        </header>
+        <ul  style="list-style:none;" align="left"> <!--bo dau cham dau cau-->
+            <li><b>What is your age range?</b></li>
+            <li>
+                <select>
+                    <option value="18-24">18-24</option>
+                    <option value="25-34">24-34</option>
+                    <option value="35-50">35-50</option>
+                    <option value="50+">50+</option>
+                </select>
+            </li>
+            <li><b>What is your yearly income range?</b></li>
+            <li>
+                <select>
+                    <option value="$0-$25,000">$0-$25,000</option>
+                    <option value="$25,001-$50-000">$25,000-$50-000</option>
+                    <option value="$50,001-$100,000">$50,001-$100,000</option>
+                    <option value="$100,000+">$100,000+</option>
+                </select>
+            </li>
+            <li><b>Gender Identity</b></li>
+            <li>
+                <input name="male" type="radio"> Male <br>
+                <input name="female" type="radio"> Female <br>
+                <input name="nonbinary" type="radio"> Nonbinary <br>
+                <input name="other" type="radio"> Other <br>
+                <input type="text">
+            </li>
+            <li><b>Which of the following products have your purchased in the last 2 months. Please check all that apply.</b></li>
+            <li>
+                <input name="product1" type="checkbox"> Product 1 <br>
+                <input name="product2" type="checkbox"> Product 2 <br>
+                <input name="product3" type="checkbox"> Product 3
+            </li>
+            <li><b>How often would you use our new product?</b></li>
+            <li>
+                <input name="daily" type="radio"> Daily <br>
+                <input name="weekly" type="radio"> Weekly <br>
+                <input name="monthly" type="radio"> Monthly
+            </li>
+            <li><b>What would you pay for the new product?</b></li>
+            <li>
+                <table>
+                    <tr>
+                        <td>$</td>
+                        <td><input name="dollars" type="number"></td>
+                        <td>.</td>
+                        <td><input name="cents" type="number"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Dollars</td>
+                        <td></td>
+                        <td>Cents</td>
+                    </tr>
+                </table>
+            </li>
+            <li><b>What features would you like to see in the new product.</b></li>
+            <li>
+                <textarea name="textarea" id="dc" cols="50" rows="10"></textarea>
+            </li>
+
+        </ul>
+
+
+    </form>
+    
+</body>
+</html>
