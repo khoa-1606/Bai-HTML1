@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    table, td{
+        border-style: solid; 
+        border-color: tomato;
+        border-width: 2px; 
+        width:300px;
+        height: 50px;
+    }
+</style>
+
+<body>
+    <!--Form: là 1 thành phần của HTML để lấy dữ liệu của người dùng trên server-->
+    <form action="https://www.facebook.com/" method="get"> <!--method="post"-->
+        <!-- get: sau khi nhập username và pass chọn submit -> sẽ hiện username và pass trên thanh url
+            post: sau khi nhập username và pass chọn submit -> không hiển thị username và pas trên thanh url-->
+        <p>Username:</p><input type="text" name="username">
+        <p>Passwrod:</p><input type="password" name="password">
+        <button type="submit">Login</button>
+        <button type="reset">Reset</button>
+    </form>
+    <hr>
+    <!--table: hiển thị dữ liệu theo dạng bảng (tr:dòng ; td:cột; th:tiêu đề)-->
+    <h2 align="center" style="color:blue;">Tạo table với thẻ style trên cùng 1 file html</h2>
+    <table align="center">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Võ Huỳnh Yến Khoa</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Khoa Võ</td>
+            <td>22</td>
+        </tr>
+    </table>
+
+</body>
+</html>
