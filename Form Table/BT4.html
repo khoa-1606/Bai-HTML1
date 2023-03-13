@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BT4</title>
 </head>
+<style>
+    table {
+        height: 10px;
+    }
+</style>
 <body>
     <form>
-        <header>
+        <header> <hr>
             <table>
                 <tr>
-                    <td><h2>Market Research Survey</h2></td>
+                    <td><b>Market Research Survey</b></td>
                 </tr>
                 <tr>
                     <td>Please take a few moments to complete this satisfaction survey.</td>
@@ -22,7 +27,7 @@
         <ul  style="list-style:none;" align="left"> <!--bo dau cham dau cau-->
             <li><b>What is your age range?</b></li>
             <li>
-                <select>
+                <select style="width:200px;">
                     <option value="18-24">18-24</option>
                     <option value="25-34">24-34</option>
                     <option value="35-50">35-50</option>
@@ -31,7 +36,7 @@
             </li>
             <li><b>What is your yearly income range?</b></li>
             <li>
-                <select>
+                <select style="width:200px;">
                     <option value="$0-$25,000">$0-$25,000</option>
                     <option value="$25,001-$50-000">$25,000-$50-000</option>
                     <option value="$50,001-$100,000">$50,001-$100,000</option>
@@ -63,9 +68,9 @@
                 <table>
                     <tr>
                         <td>$</td>
-                        <td><input name="dollars" type="number"></td>
+                        <td><input name="dollars" type="number" style="width:60px"></td>
                         <td>.</td>
-                        <td><input name="cents" type="number"></td>
+                        <td><input name="cents" type="number" style="width:10px"></td>
                     </tr>
                     <tr>
                         <td></td>
