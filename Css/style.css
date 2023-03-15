@@ -1,0 +1,55 @@
+/* ghi chú 
+    (bộ chọn) {
+        (tên thuộc tính): giá trị;
+        (tên thuộc tính): giá trị;
+        (tên thuộc tính): giá trị;
+    }
+
+    (selection)
+        (properties): value;
+        (properties): value;
+        (properties): value;
+    }
+*/
+
+h1 {
+    color: red;
+    background-color: aqua; /*đơn vị con trong background*/
+    background: orange;
+}
+
+h2 {
+    color: green;
+    background-color: yellow;
+}
+
+h3 {
+    color: grey;
+    background-color: black;
+}
+
+p {
+    color: red;
+    font-size: 20px; /*cỡ chữ*/
+    font-style: italic; /*kiểu chữ in nghiêng*/
+}
+
+.qq {
+    color: rgb(79, 0, 135);
+}
+/* 
+    .(name-class) {
+        (tên thuộc tính): giá trị;
+    }
+*/
+
+#ns {
+    color: deeppink;
+    font-size: 50px;
+}
+/* 
+    #(name-id) {
+        (tên thuộc tính): giá trị;
+    }
+*/
+
