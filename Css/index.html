@@ -7,9 +7,60 @@
     <title>CSS</title>
     <link rel="stylesheet" href="style.css"> <!--External-->
     <style>
+        div {
+           margin: auto;
+           padding: 35px;
+           width: 80px;
+           box-shadow: inset 0 0 22px indianred;
+           border-radius: 50%;
+        }
+        div > div {
+           padding: 0 0px 100px 0px;
+           border-radius: 3%;
+           box-shadow: inset 0 0 22px seagreen;
+        }
+    </style>
+
+    <style>
+    div {
+       margin: 25px;
+       padding: 35px;
+       width: 200px;
+       background-color: lightseagreen;
+       border: 20px dashed indianred;
+    }
+    </style>
+
+    <style>
+    #demo {
+       width: 350px;
+       display: flex;
+       float: left;
+       border: 6px solid black;
+       border-radius: 6%;
+    }
+    .d1 {
+       margin-left: 20px;
+       width: 150px;
+       height: 80px;
+       box-shadow: 0 0 0 4px mediumslateblue;
+       box-sizing: border-box;
+       border-radius: 36%;
+    }
+    .d2 {
+       width: 150px;
+       height: 80px;
+       padding: 30px;
+       box-shadow: 0 0 0 4px darkred;
+       box-sizing: border-box;
+       border-radius: 36%;
+    }
+    </style>
+
+    <!--<style>
         h1 {
             color: red;
-        }
+        } -->
     </style> <!--Internal-->
 </head>
 <body>
@@ -33,8 +84,44 @@
     <h2>Internal</h2>
     <h3>External</h3>
 
-    <p>Khoa</p>
+    <p>Võ Huỳnh Yến Khoa</p>
     <p class="qq">Trà Vinh</p>
     <p id="ns">16.06.1998</p>
+    <hr>
+
+    <h2>Thiết lập màu nền cho dòng tiêu đề của bảng</h2>
+    <table>
+    <tr>
+        <th>Họ đệm</th>
+        <th>Tên</th>
+        <th>Tiết kiệm ($)</th>
+    </tr>
+    <tr>
+        <td>Nguyễn Trung</td>
+        <td>Tuyến</td>
+        <td>110</td>
+    </tr>
+    <tr>
+        <td>Nguyễn Thị Xuân</td>
+        <td>Quỳnh</td>
+        <td>170</td>
+    </tr>
+    <tr>
+        <td>Nguyễn Thị Kim</td>
+        <td>Cúc</td>
+        <td>320</td>
+    </tr>
+    <tr>
+        <td>Bùi Thành</td>
+        <td>Trung</td>
+        <td>280</td>
+    </tr>
+    </table>
+
+    <div id="demo">
+        <div class="d1"></div>
+        <div class="d2"></div>
+        </div>
+
 </body>
 </html>
