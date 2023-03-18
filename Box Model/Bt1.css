@@ -1,0 +1,49 @@
+.hinhanh {
+    margin: auto;
+    padding: 20px;
+    border: solid 15px yellow;
+    width: 300px; 
+    height: 300px; 
+    border-radius:500px; 
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    background-color: rgb(244, 244, 39);
+    border: 5px solid red;
+    margin: 50px;
+}
+
+td {
+    width: 150px;
+    height: 50px;
+}
+
+.ha {
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    font-size: 20px;
+    color: green;
+    font-style: italic;
+    text-align: center;
+}
+
+.lop {
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+td {
+    padding: 20px;
+    border: 1px solid black;
+}
