@@ -1,10 +1,10 @@
 .hinhanh {
     margin: auto;
-    padding: 20px;
+    padding: 20px; /* ảnh cách đường viền màu vàng 20px*/
     border: solid 15px yellow;
     width: 300px; 
     height: 300px; 
-    border-radius:500px; 
+    border-radius:500px; /*làm tròn ảnh*/
     display: flex;
     justify-content: center;
 }
