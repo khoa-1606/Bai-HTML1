@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 400px;
+            height: 700px;
+            background-color: orange;
+        }
+        .red {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-top: 200px;
+        }
+        .blue {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: fixed;
+            top: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h3 style="text-align: center; color: red;">5 giá trị thuộc tính cơ bản của Position</h3>
+    <pre>
+        - position: quy định cách xác định vị trí của phần tử HTML
+        - position: static; vị trí/tĩnh mặc định của phần tử và bạn đặt đâu phần tử sẽ nằm ở đó.
+        - position: relative; vị trí của phần tử sẽ tương đối so với vị trí tĩnh bạn đặt và khoản không gian xung quanh phần tử sẽ được giữ nguyên.
+        - position: fixed; vị trí sẽ nằm cố định một chỗ, dù bạn có làm gì, phần tử vẫn nằm cố định 1 vị trí trên màn hình.
+        - position: absolute; vị trí của phần tử sẽ được xác định từ padding của phần tử cha.
+        - position: sticky; vị trí của phần tử sẽ được định vị khi người dùng sử dụng thanh cuộn.
+    </pres>
+
+    <hr> 
+    <div>
+        <div class="red"></div>
+        <div class="blue"></div>
+    </div>
+    <!-- 
+        *static: khồn phụ thuộc top-bottom-right-left, mặc định
+        *có thể thay đổi top-bottom-right-left
+            - fixed: ở vị trí cố định khi lăn chuột
+            - absolute: xác định vị trí theo thẻ cha
+            - relative: xác định vị trí theo vị trí mặc định
+     -->
+</body>
+</html>
