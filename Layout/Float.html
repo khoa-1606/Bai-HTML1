@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        .item {
+            width: 200px;
+            height: 200px;
+            border: 1px solid;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color: red;">Float</h1>
+    <p>Float --- được sử dụng để thay đổi vị trí của phần tử trong luồng dàn trang, dàn phần tử thông thường (luồng dàn phần tử trong browser khi không dùng CSS hay CSS nhận các giá trị mặc định)
+        Thuộc tính này sẽ đẩy phần tử trôi về trái hoặc phải của phẩn tử chứa.</p>
+        <p style="text-align: center;">Cú pháp: <br>
+            <b>float: left | right | none | inherit; </b></p>
+        <ul>
+            <li>left: phần tử được trôi về phía bên trái. Luồng nội dung thông thường sẽ giữ ở bên phải, bắt đầu ở phần đỉnh của phần tử. Luồng nội dung xung quanh box thay đổi tùy thuộc vào giá trị của thuộc tính clear</li>
+            <li>right: phần tử được trôi về phía bên phải</li>
+            <li>none: phần tử không bị đẩy về phía nào, vị trí của nó theo luồng dựng thông thường</li>
+            <li>inherit: giá trị float kế thừa từ phần tử cha</li>
+        </ul>
+
+        <div class="item">Thẻ div 1</div> 
+        <div class="item">Thẻ div 2</div>
+    
+</body>
+</html>

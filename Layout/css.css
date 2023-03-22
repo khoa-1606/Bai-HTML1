@@ -6,7 +6,16 @@
 img {
     width: 150px;
     height: 80px;
-    float: left;
+    float: left; 
+    /*float được sử dụng để thay đổi vị trí của phần tử trong luồng dàn trang
+    dàn phần tử thông thường (luồng dàn phần tử trong browser khi không dùng CSS hay CSS nhận các giá trị mặc định)
+    Thuộc tính này sẽ đẩy phần tử trôi về trái hoặc phải của phẩn tử chứa.
+    Cú pháp:
+            float: left | right | none | inherit;
+    - left: phần tử được trôi về phía bên trái. Luồng nội dung thông thường sẽ giữ ở bên phải, bắt đầu ở phần đỉnh của phần tử. Luồng nội dung xung quanh box thay đổi tùy thuộc vào giá trị của thuộc tính clear .
+    - right: phần tử được trôi về phía bên phải
+    - none: phần tử không bị đẩy về phía nào, vị trí của nó theo luồng dựng thông thường.
+    - inherit: giá trị float kế thừa từ phần tử cha.*/
     margin-left: 5px;
     margin-bottom: 20px;
 }
