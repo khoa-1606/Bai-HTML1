@@ -1,4 +1,4 @@
-.head, .menu, .content, .footer {
+.head, .content, .footer {
     margin-bottom: 10px;
     width: 100%;
     border: 1px solid;
@@ -29,10 +29,10 @@
 }
 
 .menu {
-    /* width: 100%; */
+    width: 100%;
     height: 50px;
-    /* border: 1px solid; */
-    /* margin-top: 5px; */
+    border: 1px solid;
+    margin-top: 5px;
     background-color: lightsalmon;
 }
 
@@ -44,8 +44,35 @@
 }
 
 .menu a {
+    color: black;
     text-decoration: none;
 }
+.menu .menu-bar .home {
+    line-height: 30px;
+    border-left: 1px;
+    padding: 2px 30px 2px 5px;
+    border-top: 10px;
+}
+
+.buttona{
+    font-size:15px;
+    background:#F00;
+    float:right;
+    border:none;
+    border-radius:6px;
+	height:30px;
+	width:2%;
+	margin-top:12px;
+	background-color:#FFF
+}
+.item{
+	height:50%;
+	padding:10px; 
+	float:right;
+	color:#FFF;
+	margin-top:2px;
+}
+
 .content {
     /* width: 100%; */
     height: 600px;
@@ -62,12 +89,86 @@
     margin-right: 10px;
 }
 
+.content-left1 {
+    width: 100%;
+    height: 300px;
+    border: 1px solid;
+    float: left;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.content-left2 {
+    width: 100%;
+    height: 200px;
+    border: 1px solid;
+    float: left;
+    display: block;
+}
+
 .content-mid {
     width: calc(100% - 15% - 25% - 26px);
     float: left;
     height: 600px;
     border: 1px solid;
     margin-right: 10px;
+}
+.content-mid1 {
+    width: 420px;
+    height: 150px;
+    float: left;
+    border: 1px solid;
+    margin: 10px 10px 10px 10px;
+}
+.content-mid2 {
+    width: 400px;
+    height: 150px;
+    float: left;
+    border: 1px solid;
+    margin: 10px 10px 10px 10px;
+}
+
+.content-mid3 {
+    width: 300px;
+    height: 150px;
+    float: left;
+    border: 1px solid;
+    margin: 10px 10px 10px 10px;
+}
+.content-mid4 {
+    width: 250px;
+    height: 150px;
+    float: left;
+    border: 1px solid;
+    margin: 10px 10px 10px 10px;
+}
+.content-mid5 {
+    width: 230px;
+    height: 150px;
+    float: left;
+    border: 1px solid;
+    margin: 10px 10px 10px 10px;
+}
+.content-mid6 {
+    width: 200px;
+    height: 150px;
+    float: left;
+    border: 1px solid;
+    margin: 10px 10px 10px 10px;
+}
+.content-mid7 {
+    width: 350px;
+    height: 150px;
+    float: left;
+    border: 1px solid;
+    margin: 10px 10px 10px 10px;
+}
+.content-mid8 {
+    width: 240px;
+    height: 150px;
+    float: left;
+    border: 1px solid;
+    margin: 10px 10px 10px 10px;
 }
 
 .content-right {
@@ -76,6 +177,7 @@
     float: left;
     border: 1px solid;
 }
+
 .footer {
     /* width: 100%; */
     height: 50px;
@@ -83,4 +185,21 @@
     margin-top: 5px; */
     background-color: lightblue;
 }
+.menu-footer td {
+    line-height:30px;
+    border-left: 1px solid;
+    padding: 2px 30px 2px 5px;
+    border-top: 10px;
+}
 
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer .menu-footer .home {
+    line-height: 30px;
+    border-left: 1px;
+    padding: 2px 30px 2px 5px;
+    border-top: 10px;
+}
