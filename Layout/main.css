@@ -20,7 +20,7 @@
 	padding:10px; 
 	float:left;
 	color:#FFF;
-	margin-top:2px;
+	margin-top:5px;
 }
 
 .buttona{
@@ -29,7 +29,7 @@
     border:none;
     border-radius:6px;
 	height:30px;
-	width:4%;
+	width:3%;
 	transition:0.5s;
 	margin-top:12px;
 	background-color:#FFF
@@ -52,7 +52,7 @@
     max-width: 100%;
 }
   
- #menu li {
+#menu li {
     text-align:center;
     display: inline-block;
     width:12%;
@@ -69,7 +69,6 @@
     line-height:50px;
     width:100%;
     border-radius: 10%;
-
 }
   
 #menu a:hover {
@@ -80,21 +79,73 @@
     width:100%;
     margin-top:-16px;
 }
-
-#footer {
-    background: #333;
-    padding: 10px 15px;
+ #content {
+    width: 100%;
+    height: auto;
+    background-color: lightgrey;
+ }
+.sp {
+    width: 350px;
+    height: 400px;
+    float: left;
+    border: 2px solid;
+    margin: 10px 10px 10px 10px;
+}
+/* Để căn giữa một hình ảnh, hãy đặt margin-left và margin-right thành auto và biến nó thành một phần tử khối (block) */
+.sp img {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    display: block;
+    margin: auto; 
+}
+.sp:hover {
+    /* background-color: lightgray; */
+    border-color: #F00;
+}
+.sp ul {
+    color:#000;
+    list-style-type: none;
+    text-align:left;
+    max-width: 100%;
+}
+  
+.sp li {
+    text-align:center;
+    display: inline-block;
+    width: 100px;
+    height: auto;
+    padding: 0px 5px 0px 5px;
+    margin: 10px;
+}
+  
+.sp a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    background-color: #333;
+    height:50px;
+    line-height:50px;
+    width:100%;
+    border-radius: 15%; 
+}
+  
+.sp a:hover {
+    background: lightcoral;
+    color:#333;
+    height:50px;
+    line-height:50px;
+    width:100%;
+    margin-top:-16px;
+}
+#footer{
+	width:100%;
+	color:#FFF;
+	float:left;
+    margin: 10px 5px 10px 5px;
+	background-color:#333;
     text-align: center;
-    color: #FFF;
 }
-
-#footer :hover {
-    color: #F00;
-}
-/* .banner {
-    padding-top: 60px;
-} */
-
 /* #box {
     width: 100px;
     height: 50px;
@@ -108,3 +159,8 @@
     margin-left: 1390px;
     margin-top: 15px;
 } */
+
+/* margin: auto; - căn giữa phần tử
+ Căn giữa không có hiệu lực nếu thuộc tính width không được đặt (hoặc được đặt thành 100%) */
+
+/* Căn giữa văn bản: text-align: center; */

@@ -1,0 +1,172 @@
+.head {
+    width: 100%;
+    height: 100px;
+    border: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    background-color: rgb(0, 183, 255);
+}
+.head-bar {
+    padding-top: 30px;
+    float: right;
+}
+.logo {
+    float: left;
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    border-left: 1px;
+    padding: 2px 30px 2px 5px;
+    border-top: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+.head-bar td {
+    line-height:30px;
+    border-left: 1px;
+    padding: 2px 30px 2px 5px;
+    border-top: 10px;
+}
+
+.head-bar a {
+    color: white;
+    text-decoration: none;
+}
+.head .head-bar .home {
+    line-height: 30px;
+    border-left: 1px;
+    padding: 2px 30px 2px 5px;
+    border-top: 10px;
+}
+.content {
+    width: 100%;
+    height: 400px;
+    border: 1px;
+    margin-top: 5px;
+    background-color:  rgb(255, 255, 255);
+}
+
+.content-left {
+    width: 20%;
+    height: 500px;
+    border: 1px;
+    float: left;
+    margin-right: 10px;
+    background-color:  white;
+}
+.content a {
+    color: white;
+    text-decoration: none;
+}
+.content-left1 {
+    width: 100%;
+    height: 35px;
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    border: 1px;
+    background-color:  rgb(0, 183, 255);
+    margin-bottom: 10px;
+}
+.content-left2 {
+    width: 100%;
+    height: 35px;
+    float: left;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    border: 1px;
+    background-color:  rgb(0, 183, 255);
+    margin-bottom: 10px;
+}
+.content-left3 {
+    width: 100%;
+    height: 35px;
+    float: left;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    border: 1px;
+    background-color:  rgb(0, 183, 255);
+    margin-bottom: 10px;
+}
+.content-left4 {
+    width: 100%;
+    height: 35px;
+    float: left;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    border: 1px;
+    background-color:  rgb(0, 183, 255);
+    margin-bottom: 10px;
+}
+
+.content-mid {
+    width: calc(100% - 20% - 23% - 21px);
+    float: left;
+    height: 500px;
+    border: 1px;
+    margin-right: 10px;
+    background-color:  white;
+}
+.table {
+    width: 200px;
+    height: 150px;
+}
+.table1 .td1{
+    float: right;
+    font-size: 18px;
+}
+
+.submitbutton {
+    margin: 10px;
+    background-color: rgb(0, 183, 255);
+    color: #FFF;
+    float: right;
+    border: 1px solid;
+}
+.content-right {
+    width: 23%;
+    height: 500px;
+    float: left;
+    border: 1px;
+    background-color:  rgb(0, 183, 255);
+}
+.content-right1 {
+    color: white;
+    font-size: 17px;
+    margin: auto;
+    text-align: center;
+}
+.content-right2  {
+    color: white;
+    font-size: 17px;
+    margin: auto;
+    text-align: center;
+}
+.content-right3 {
+    color: white;
+    font-size: 17px;
+    margin: auto;
+    text-align: center;
+}
+.footer {
+	width:100%;
+    height: 70px;
+	color:#FFF;
+	float:left;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color:  rgb(0, 183, 255);
+}
