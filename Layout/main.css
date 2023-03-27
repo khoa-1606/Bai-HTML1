@@ -79,16 +79,16 @@
     width:100%;
     margin-top:-16px;
 }
- #content {
+#content {
     width: 100%;
     height: auto;
-    background-color: lightgrey;
+    background-color: white;
  }
 .sp {
     width: 350px;
     height: 400px;
     float: left;
-    border: 2px solid;
+    border: 3px solid;
     margin: 10px 10px 10px 10px;
 }
 /* Để căn giữa một hình ảnh, hãy đặt margin-left và margin-right thành auto và biến nó thành một phần tử khối (block) */
