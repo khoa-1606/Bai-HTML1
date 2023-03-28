@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* hover: box dịch sang phải 200px, có thêm border 
+        Thêm 1 div lass là box2, khi hover: biến mất*/
+        .box {
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+        .box:hover {
+            width: 400px;
+            margin-left: 200px;
+            background: red;
+        }
+        .box2 {
+            margin-top: 30px;
+            width: 200px;
+            height: 200px;
+            background: green;
+        }
+        .box2:hover {
+            opacity: 0; /* hover lên box - box biến mất */
+        }
+        .box3 {
+            width: 200px;
+            height: 200px;
+            background: pink;
+            color: black;
+            text-align: center;
+            margin: auto;
+        }
+        .box3:hover {
+            transform: rotate(180deg) scale(1.5); /*xoay 180 độ và phóng to 1.5*/
+            transition-duration: 1s; /*quá trình diễn ra trong 1s*/
+        }
+
+        .box4 {
+            width: 200px;
+            height: 200px;
+            background: blue;
+            text-align: center;
+            margin: auto;
+        }
+        .box4:hover {
+        /*hover lên box chuyển sang hình tròn và lăn sang phải 200px*/    
+            border-radius: 50%;
+            transform: translateX(200px) rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box2"></div>
+    <div class="box3">Khoa</div>
+    <div class="out"><div class="box4"></div></div>
+</body>
+</html>

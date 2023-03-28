@@ -83,6 +83,8 @@
     width: 100%;
     height: auto;
     background-color: white;
+    /* Thuộc tính tạo màu nền
+    background-image: linear-gradient(0, #333, #F00); */
  }
 .sp {
     width: 350px;
@@ -90,6 +92,7 @@
     float: left;
     border: 3px solid;
     margin: 10px 10px 10px 10px;
+
 }
 /* Để căn giữa một hình ảnh, hãy đặt margin-left và margin-right thành auto và biến nó thành một phần tử khối (block) */
 .sp img {
@@ -129,7 +132,16 @@
     width:100%;
     border-radius: 15%; 
 }
-  
+
+/* a:link {color:blue;}: Hiển thị hiệu ứng khác biệt để người đọc biết đây là đường liên kết.
+a:visited {color:green;}: Đường link đã từng được click vào.
+a:hover {color:red;}: Di chuột qua đường link.
+a:active {color:navy;}: Đường link đang được nhấp chuột vào. 
+-- Lưu ý:
+a:hover phải xuất hiện sau a:link và a:visited trong CSS để tạo ra hiệu ứng.
+Tương tự, a:active phải xuất hiện sau a:hover.
+Các tên được sử dụng cho Pseudo Class là không phân biệt chữ hoa chữ thường.
+Pseudo Class khác với các Class khác trong CSS, tuy nhiên chúng có thể kết hợp với nhau.*/
 .sp a:hover {
     background: lightcoral;
     color:#333;
@@ -138,6 +150,7 @@
     width:100%;
     margin-top:-16px;
 }
+
 #footer{
 	width:100%;
 	color:#FFF;
@@ -146,6 +159,8 @@
 	background-color:#333;
     text-align: center;
 }
+/*  */
+
 /* #box {
     width: 100px;
     height: 50px;

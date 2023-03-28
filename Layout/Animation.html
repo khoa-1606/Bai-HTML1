@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background: blue;
+            animation: example 2s; /*example là tên hiệu ứng - có thê tùy đặt*/
+            animation-iteration-count: infinite; /*số lần lặp*/
+            
+        }
+        /*tạo animation - khai báo cho example ở dòng 13*/ 
+        @keyframes example {
+            0% {
+                /* border-radius: 0; Di chuyển từ trái sang phải - chuyển dần thành hình tròn*/
+                
+            }
+            25% {
+                /* background: purple; */
+                transform: translateX(1000px);
+            }
+            50% {
+                /* background: yellow;
+                border-radius: 50%;  Di chuyển từ trái sang phải - chuyển dần thành hình tròn */
+                /* margin-left: calc(100% - 200px); Di chuyển từ trái sang phải */
+                /* opacity: 0; */
+                transform: translate(1000px, 600px);
+            }
+            75% {
+                /* background: orange;
+                border-radius: 0;   Di chuyển từ trái sang phải */
+                /* transform: rotate(180deg); */
+                transform: translate(0px, 600px);
+            }
+            100% {
+                /* background-color: blue; */
+                transform: translate(0px, 0px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <!-- Di chuyển từ trái sang phải (margin-left:), quay về. Chuyển dần thành hình tròn -->
+    <!-- Di chuyển 4 cạnh màn hình -->
+</body>
+</html>
